@@ -20,13 +20,13 @@ export const Hero = () => {
         <div>
           <img className='w-full' src={bgImg} alt="/" />
         </div>
-        <div>
+        <div className='absolute flex flex-col py-8 md:min-w-[768px] bottom-[5%] mx-1 md:left-1/2 transform md:-translate-x-1/2 bg-zinc-200 border border-slate-300 rounded-xl text-center shadow-xl'>
           <p>Data Services</p>
-          <div>
-            <p>Icon. App Security</p>
-            <p>Icon. Dashboard Design</p>
-            <p>Icon. Cloud Data</p>
-            <p>Icon. API</p>
+          <div className='flex justify-between flex-wrap px-4'>
+            <p className='flex px-4 py-2 text-slate-500'><CloudArrowUpIcon className='h-6 text-indigo-600'/> App Security</p>
+            <p className='flex px-4 py-2 text-slate-500'><CircleStackIcon className='h-6 text-indigo-600'/> Dashboard Design</p>
+            <p className='flex px-4 py-2 text-slate-500'><ServerIcon className='h-6 text-indigo-600'/> Cloud Data</p>
+            <p className='flex px-4 py-2 text-slate-500'><PaperAirplaneIcon className='h-6 text-indigo-600'/> API</p>
           </div>
         </div>
       </div>
