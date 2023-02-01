@@ -57,7 +57,6 @@ export const Footer = () => {
                     <button className='p-2 mb-4'>Suscribe</button>
                 </form>
             </div>
-
         </div>
 
         <div className='flex flex-col max-w-[1240px] px-2 py-4 mx-auto justify-between sm:flex-row text-center text-gray-500'>
